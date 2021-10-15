@@ -1,5 +1,5 @@
 # mercadolibre_codo_a_codo
-Proyecto de Html, CCS, donde se solicita:
+* Proyecto de Html, CCS, donde se solicita:*
 ● Poseer al menos 3 páginas html, siendo su temática libre. -> Incluye 3 vistas: Index, login, register
 ● Utilizar etiquetas semánticas para estructurar el sitio de forma correcta. --> Ok
 ● Contener un formulario de contacto con validación realizada mediante Javascript. --> Falta realizar validaciones, aunque el index cuenta con validaciones en los botones de 
