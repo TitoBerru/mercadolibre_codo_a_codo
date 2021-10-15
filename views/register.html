@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://kit.fontawesome.com/29db22af69.js" crossorigin="anonymous"></script>
+</head>
+
+<body class = "bodyRegister">
+    <header class="headerMain">
+        <div class="headerMainBar">
+            <img src="/public/images/logo-mercado-liebre.svg" alt="logo-mercado-liebre" class="logo">
+            <form action="/search" method="GET" class="formSearch">
+           
+            <input type="text" placeholder="Buscar producto, marcas y más..." class="inputSearch" />
+            <button type="submit"class="btnSearch"><i class="fas fa-search"></i>
+            </button>   
+            </form>
+            <h2 class="headerH2">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjetas de crédito
+            </h2>
+        </div>
+        <a href="#" class="hambur"><i class="fas fa-bars"></i></a>
+        <nav class="headerMainNav">
+            <ul class="navBar1">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <ul class="navBar2">
+                <li><a href="/register.html" class="register">Creá tu cuenta <i class="fas fa-credit-card"></i></a></i></li>
+                <li><a href="/login.html">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></i></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="contentBanner"><img src="../public/images/img-home-banner.jpg" alt="banner de mercado liebre" class="banner" /></div>
+    <main class="mainRegister">
+        <!-- TITULO REGISTRO -->
+        <h2 class="h2Registro">FORMULARIO DE REGISTRO</h2>
+        <!-- Formulario -->
+        <form action="#" method="post" class ="formularioRegistro">
+            
+                <div class="datosFormulario">
+                    <label for=""></label>
+                    <input type="text" name="nombreApellido" placeholder="Nombre y Apellido" class="datosPersonales" minlength="1" maxlength="5" title="Por favor ingrese sus nombres y apellidos">
+                </div>
+                <div class="datosFormulario">
+                    <label for=""></label>
+                    <input type="text"name="nombreUsuario"placeholder="Nombre de usuario" class="datosPersonales"title="Por favor escoga un nombre de usuario" >
+                </div>
+                <div class="datosFormulario">
+                    <label for=""></label>
+                    <input type="password"name="password"placeholder="Eliga una clave" class="datosPersonales" title="Por favor escoga una clave de acceso">
+                </div>
+                <div class="datosFormulario">
+                    <label for=""></label>
+                    <input type="password"name="passwordConfirm"placeholder="Reitere la Clave" class="datosPersonales" title="Reingrese su clave de acceso">
+                </div>
+                <div class="datosFormulario"> 
+                    <label for=""></label>
+                    <input type="email" name="email"placeholder="Email" class="datosPersonales" title="Por favor ingrese su cuenta de correo electronico">
+                </div>
+                <div class="datosFormulario">
+                    <label for=""></label>
+                    <input type="text"name="domicilio"placeholder="Domicilio" class="datosPersonales" title="Por favor ingrese su direccion completa">
+                </div>
+                <div class="datosFormulario">
+                    <label for="" >Fecha de Nacimiento:</label>
+                    <input type="date" name="fechaNacimiento" class="boxes" title="Por favor ingrese su fecha de nacimiento">
+                </div>
+                <div class="datosFormulario">
+                    <label for="" >Ingrese su foto:</label>
+                   <input type="file" name="fotoDeUsuario" accept=".jpg, .png" class="boxes">
+                </div>
+                <div class="datosFormulario">
+                    <label for="">Perfil del usuario</label>
+                    <select name="perfilDeUsuario" class="boxes">
+                        <option value="comprador">Comprador</option>
+                        <option value="vendedor">Vendedor</option>
+                        <option value="ambos">Ambos</option>
+                    </select>
+                </div>
+                <h4>Intereses</h4>
+                 <div class="datosFormulario checkbox">
+                    <input type="checkbox" name="electro"> 
+                    <label for="">Electro</label>
+                     
+                 </div>
+                <div class="datosFormulario checkbox">
+                    <input type="checkbox" name="moda"> 
+                    <label for="">Moda</label>
+                     
+                 </div>
+                 <div class="datosFormulario checkbox">
+                    <input type="checkbox" name="hogar">
+                    <label for="">Hogar</label>
+                    
+                </div>
+                <div class="datosFormulario checkbox">
+                    <input type="checkbox" name="jugueteria">
+                    <label for="">Jugueteria</label>
+                    
+                </div>
+                <div class="datosFormulario checkbox">
+                    <input type="checkbox" name="vidaSana">
+                    <label for="">Vida sana</label>
+                    
+                </div>    
+            <button type="submit" class="btnForm"><a href="/" class ="btnLink"> Guardar </a>
+            </button>
+            <button type="reset" class="btnForm">Cancelar</button>
+                
+        </form>
+        <div class="main">
+        </div>
+    </main>
+    <footer>
+        <div class="footerContainer">
+            <div class="footerPart1">
+                <i class="fas fa-credit-card iconofooter"></i>
+                <h2>Pagá con tarjeta o efectivo</h2>
+                 <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
+                efectivo en puntos de pago. ¡Y siempre es seguro!</p>                    
+            </div>
+            <div class="footerPart2">
+                <i class="fas fa-gift iconofooter"></i>
+                <h2>Envío gratis desde $ 2.500</h2>
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
+                    miles de productos. Es un beneficio de Mercado Puntos.</p>
+            </div>
+            <div class="footerPart3">
+                <i class="fas fa-user-shield iconofooter"></i>
+                <h2>Seguridad, de principio a fin</h2>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
+                    hacer, porque estás siempre protegid@.</p>   
+            </div>     
+        </div>
+       
+        <span class="copy">Copyright © 1999-2020 MercadoLiebre S.R.L.</span>
+
+    </footer>
+
+</body>
+
+</html>

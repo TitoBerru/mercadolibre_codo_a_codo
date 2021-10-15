@@ -1,0 +1,9 @@
+manito para pesos
+<i class="fas fa-hand-holding-usd"></i>
+<i class="fas fa-bars"></i> Boton Hambur
+<i class="fas fa-credit-card"></i> Crea tu cuenta
+<i class="fas fa-sign-in-alt"></i> Ingresa
+<i class="fas fa-shopping-basket"></i> Mis Compras
+<i class="fas fa-search"></i> lupa de busqueda
+<i class="fas fa-truck"></i> Camion
+<i class="far fa-circle"></i>circulo

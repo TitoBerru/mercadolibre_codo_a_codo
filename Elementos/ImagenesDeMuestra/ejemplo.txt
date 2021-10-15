@@ -1,0 +1,17 @@
+ <div class="mainContent">
+            <h2>Basado en tu última visita</h2>
+            <div class="ultimaVisita">
+                <div class="uv1">
+                    <div class="imagenesUV">
+                        <img src="../public/images/img-macbook-pro-2019.jpg" class="imgTitulares" />
+                    </div>
+                    <i class="fas fa-truck" class="camion"></i>
+                    <div class="uv1Textos">
+                        <div><span class="precio">$230.000</span></div>
+                        <div><span class="descuentos">20% off</span></div>
+                    </div>
+                    <div><span class="descripciones">MacBook Pro 2019</span></div>
+                </div>
+                
+            </div>
+        </div>

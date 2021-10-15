@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <script src="https://kit.fontawesome.com/29db22af69.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="./validaciones.js"></script>
+</head>
+
+<body>
+    <header class="headerMain">
+        <div class="headerMainBar">
+            <img src="/public/images/logo-mercado-liebre.svg" alt="logo-mercado-liebre" class="logo">
+            <form action="/search" method="GET" class="formSearch">
+
+                <input type="text" placeholder="Buscar producto, marcas y más..." class="inputSearch" />
+                <button type="submit" class="btnSearch"><i class="fas fa-search"></i>
+                </button>
+            </form>
+            <h2 class="headerH2">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjetas de crédito
+            </h2>
+        </div>
+        <a href="#" class="hambur"><i class="fas fa-bars"></i></a>
+        <nav class="headerMainNav">
+            <ul class="navBar1">
+                <li><a href="#textoOfertas">Ofertas</a></li>
+                <li><a href="#textoBUV">Basado en tu ultima visita</a></li>
+                <li class="vender"><a href="#">Vender</a></li>
+                <li class="ayuda"><a href="#">Ayuda</a></li>
+            </ul>
+            <ul class="navBar2">
+                <li><a href="/register.html" class="register">Creá tu cuenta <i class="fas fa-credit-card"></i></a></i>
+                </li>
+                <li><a href="/login.html">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li class="misCompras"><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></i></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="contentBanner"><img src="../public/images/img-home-banner.jpg" alt="banner de mercado liebre"
+            class="banner" /></div>
+    <main>
+        <span class="textoBUV" id = "textoBUV">Basado en tu última visita</span>
+        <div class="containerBUV">
+            <div class="imagenes">
+                <article class="visita1" id="vi1">
+                    <img src="/public/images/Products/img-cafetera-moulinex.jpg" alt="cafetera-moulinex">
+                    <div class="textoImagen">
+                        <i class="fas fa-truck"></i>
+                        <span class="precio">$6.770</span>
+                        <span class="descuento">40% off</span>
+                        <h4 class="vi1">Cafetera Moulinex</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="imagenes">
+                <article class="visita2" id="vi2">
+                    <img src="/public/images/Products/img-macbook-pro-2019.jpg" alt="macbook-pro-2019">
+                    <div class="textoImagen">
+                        <i class="fas fa-truck"></i>
+                        <span class="precio">$230.000</span>
+                        <span class="descuento">20% off</span>
+                        <h4 class="vi2">MacBook Pro 2019</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="imagenes">
+                <article class="visita1" id="vi1">
+                    <img src="/public/images/Products/img-aire-acondicionado.jpg" alt="aire-acondicionado">
+                    <div class="textoImagen">
+                        <i class="fas fa-truck"></i>
+                        <span class="precio">$35.000</span>
+                        <span class="descuento">20% off</span>
+                        <h4 class="vi1">Aire Acondicionado TCL</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="imagenes">
+                <article class="visita2" id="vi2">
+                    <img src="/public/images/Products/img-home-theater-sony.jpg" alt="img-home-theater-sony">
+                    <div class="textoImagen">
+                        <i class="fas fa-truck"></i>
+                        <span class="precio">$50.000</span>
+                        <span class="descuento">10% off</span>
+                        <h4 class="vi2">Home Theater Sony</h4>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <span class="textoOfertas"id = "textoOfertas">Ofertas</span>
+
+        <div class="containerOfertas">
+            <div class="imagenes">
+                <article class="oferta1" id="of1">
+                    <img src="/public/images/Products/img-samsung-galaxy-s10.jpg" alt="samsung-galaxy-s10">
+                    <div class="textoImagen">
+                        <i class="fas fa-truck"></i>
+                        <span class="precio">$70.500</span>
+                        <span class="descuento">10% off</span>
+                        <h4 class="of1">Samsung Galaxy s10</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="imagenes">
+                <article class="oferta2" id="of2">
+                    <img src="/public/images/Products/img-tv-samsung-smart.jpg" alt="img-tv-samsung-smart">
+                    <div class="textoImagen">
+                        <i class="fas fa-truck"></i>
+                        <span class="precio">$170.500</span>
+                        <span class="descuento">10% off</span>
+                        <h4 class="of2">TV Samsung smart</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="imagenes">
+                <article class="oferta1" id="of1">
+                    <img src="/public/images/Products/img-laptop-lenovo.jpg" alt="img-laptop-lenovo">
+                    <div class="textoImagen">
+                        <i class="fas fa-truck"></i>
+                        <span class="precio">$70.500</span>
+                        <span class="descuento">20% off</span>
+                        <h4 class="of1">Laptop Lenovo</h4>
+                    </div>
+                </article>
+            </div>
+            <div class="imagenes">
+                <article class="oferta2" id="of2">
+                    <img src="/public/images/Products/img-parlante-bose.jpg" alt="img-parlante-bose">
+                    <div class="textoImagen">
+                        <i class="fas fa-truck"></i>
+                        <span class="precio">$1.500</span>
+                        <span class="descuento">20% off</span>
+                        <h4 class="of2">Parlante Bose</h4>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <br>
+        <div class="footerContainer">
+            <div class="footerPart1">
+                <i class="fas fa-credit-card iconofooter"></i>
+                <h2>Pagá con tarjeta o efectivo</h2>
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
+                    efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+            </div>
+            <div class="footerPart2">
+                <i class="fas fa-gift iconofooter"></i>
+                <h2>Envío gratis desde $ 2.500</h2>
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
+                    miles de productos. Es un beneficio de Mercado Puntos.</p>
+            </div>
+            <div class="footerPart3">
+                <i class="fas fa-user-shield iconofooter"></i>
+                <h2>Seguridad, de principio a fin</h2>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
+                    hacer, porque estás siempre protegid@.</p>
+            </div>
+        </div>
+
+        <span class="copy">Copyright © 1999-2020 MercadoLiebre S.R.L.</span>
+
+    </footer>
+    
+</body>
+
+</html>

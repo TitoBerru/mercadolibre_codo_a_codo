@@ -1,0 +1,39 @@
+Paleta de colores
+Amarillo: #EAC926; 
+Azul: #03264C; 
+Celeste: #1259c3; 
+Gris oscuro: #666; 
+Gris claro: #ebebeb; 
+Verde: #39b54a; 
+
+Tipografías 
+Familia: 'Roboto’
+
+Tamaños Tipográficos 
+
+Cuerpos de texto: 12px 
+Titulares (Visita/Ofertas): 24px 
+Precios: 18px 
+Descuentos: 16px
+Descripciones: 16px
+
+Los iconos deben tener un tamaño de 2em y un margen inferior de 10px (este margen genera una separación de 10 pixeles)
+
+La sección main debe ocupar un 90% de la pantalla
+
+El logo de envio, el precio, el porcentaje de descuento y la descripción del articulo deben estar dentro de una “caja” general por cada articulo
+
+La caja general realizada debe tener borde superior de 1 pixel, línea solida y color #ebebeb
+
+La caja general realizada debe tener separado el contenido de sus bordes en 15 pixeles en cada uno de sus lados
+
+----------------------------------RESPONSIVE---------------------------
+
+Implementar los cortes:
+Navegación en tablets (ancho mínimo 361 px)
+Navegación en desktop (ancho mínimo 769 px)
+En el caso de mobile la descripción no se vera
+Para los dipositivos tablets o superiores agregar box-shadow. De la forma:
+box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+Para el header, en la versión mobile ocultar el site y login navbar. Y en las otras versiones mostrarlos pero ocultar la imagen del menu hamburguesa.
+
