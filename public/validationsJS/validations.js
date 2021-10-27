@@ -12,6 +12,7 @@ validacionesFront = window.addEventListener('load', function () {
      let btnmisCompras = document.querySelector('.misCompras');
     btnmisCompras.addEventListener('click', function () {
         alert("Funcionalidad aún no desarrollada")
-    }
-    );
-})
+    });
+
+
+});

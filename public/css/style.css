@@ -185,6 +185,10 @@ article i{
     border-radius: 8px;
     margin-bottom: 10px;
     border-block-end:outset;
+    width: 60vh;
+   scroll-margin-top: 100px;
+   margin: auto;
+    
 }
 .datosFormulario{
     margin-bottom: 15px;
@@ -222,6 +226,9 @@ article i{
 .h2Registro{
     text-align: center;
 }
+.span-validation{
+    color: red;
+}
 /* ---- hoovers de login ----*/
 .btnLogin:hover{
     padding:10px;
@@ -249,7 +256,7 @@ article i{
     padding: 15px;   
 }
 /* -------------- MEDIA QUERIS  ----------- */
-@media (min-width: 481px) and (max-width: 839px) {
+@media (min-width: 547px) and (max-width: 839px) {
     /* ----  HEADER ----- */
     .headerMain{
         display: flex;
@@ -371,6 +378,12 @@ article i{
     }
     .hambur {
         display: none;
+    }
+    .formularioRegistro{
+    
+    max-width: 60vh;
+    align-items: center;
+    margin: auto;
     }
     /* ------Footer -----------*/
     .footerContainer{
@@ -530,10 +543,9 @@ article i{
     }
    /* --------FORMULARIOS REGISTRO Y LOGIN ---------- */
    .formularioRegistro{
-    max-width: 70%;
+    
     align-items: center;
     background-color: rgba(207, 207, 207,0.1);
-    /* border: 1px solid black; */
     border-radius: 5px;
     margin:auto;
     margin-top: 50px;
@@ -673,6 +685,7 @@ article i{
     .containerBUV, .containerOfertas{
         margin-top: -130px;
     }
+    
     /* --------- hovers Main---------*/
     #vi1:hover .vi1 {
     display:block;
@@ -750,8 +763,8 @@ article i{
         }
     
     .formularioRegistro{
-        max-width: 100%;
-        width: 50vw;
+        
+        width:60vw;
         align-items: center;
         margin:auto;
         margin-top: 8vh;
