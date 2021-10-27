@@ -2,8 +2,7 @@
 # Proyecto de Html, CCS, donde se solicita:
 - [x] Poseer al menos 3 páginas html, siendo su temática libre. -> Incluye 3 vistas: Index, login, register
 - [x] Utilizar etiquetas semánticas para estructurar el sitio de forma correcta. --> Ok
-- [ ] Contener un formulario de contacto con validación realizada mediante Javascript. --> Falta realizar validaciones, aunque el index cuenta con validaciones en los botones de 
-funcionalidades aun no desarroladas, como por ej:"vender", "ayuda" y "mis compras".
+- [ ] Contener un formulario de contacto con validación realizada mediante Javascript. --> El index cuenta con validaciones en los botones de funcionalidades aun no desarroladas, como por ej:"vender", "ayuda" y "mis compras". El formulario de LOGIN tiene validaciones simples de JS como cantidad de caracteres, si esta vacio, etc. Hay un span en el html para mostrar los errores (muy simple). 
 - [x] Utilizar iframes, íconos de FontAwesome, y fuentes locales o bien de Google Fonts. --> Ok
 - [x] Tener una página totalmente responsive con 3 puntos de corte para 3 tamaños de 
 dispositivos (PC escritorio, Tablet, Celular). --> Ok, es first mobile, donde; 1er corte incluye icono hamburg escondiendo el NAV. Muestra 1 solo producto por linea.
